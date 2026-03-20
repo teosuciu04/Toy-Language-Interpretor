@@ -1,0 +1,1378 @@
+Id = 12
+Execution Stack:
+ int v;
+     v = 20;
+     print(v);
+     wait(10);
+     print(v * 10)
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = 20;
+     print(v);
+     wait(10);
+     print(v * 10)
+ int v
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = 20;
+     print(v);
+     wait(10);
+     print(v * 10)
+ int v
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = 20;
+     print(v);
+     wait(10);
+     print(v * 10)
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = 20;
+     print(v);
+     wait(10);
+     print(v * 10)
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v);
+     wait(10);
+     print(v * 10)
+ v = 20
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v);
+     wait(10);
+     print(v * 10)
+ v = 20
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v);
+     wait(10);
+     print(v * 10)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v);
+     wait(10);
+     print(v * 10)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ wait(10);
+     print(v * 10)
+ print(v)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ wait(10);
+     print(v * 10)
+ print(v)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ wait(10);
+     print(v * 10)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ wait(10);
+     print(v * 10)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(10)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(10)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(10);
+     wait(9)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(10);
+     wait(9)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(9)
+ print(10)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(9)
+ print(10)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(9)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(9)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(9);
+     wait(8)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(9);
+     wait(8)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(8)
+ print(9)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(8)
+ print(9)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(8)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(8)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(8);
+     wait(7)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(8);
+     wait(7)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(7)
+ print(8)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(7)
+ print(8)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(7)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(7)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(7);
+     wait(6)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(7);
+     wait(6)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(6)
+ print(7)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(6)
+ print(7)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(6)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(6)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(6);
+     wait(5)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(6);
+     wait(5)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(5)
+ print(6)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(5)
+ print(6)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(5)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(5)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(5);
+     wait(4)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(5);
+     wait(4)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(4)
+ print(5)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(4)
+ print(5)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(4)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(4)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(4);
+     wait(3)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(4);
+     wait(3)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(3)
+ print(4)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(3)
+ print(4)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(3)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(3)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(3);
+     wait(2)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(3);
+     wait(2)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(2)
+ print(3)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(2)
+ print(3)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(2)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(2)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(2);
+     wait(1)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(2);
+     wait(1)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(1)
+ print(2)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(1)
+ print(2)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(1)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(1)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(1);
+     wait(0)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ print(1);
+     wait(0)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(0)
+ print(1)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(0)
+ print(1)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(0)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+   2
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+ wait(0)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+   2
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+   2
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v * 10)
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+   2
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+Symbol Table:
+   v --> 20
+Heap:
+Out:
+   20
+   10
+   9
+   8
+   7
+   6
+   5
+   4
+   3
+   2
+   1
+   200
+FileTable:
+   (none)
+
+--------------------------------------------------

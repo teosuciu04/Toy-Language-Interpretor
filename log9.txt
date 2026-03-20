@@ -1,0 +1,1133 @@
+Id = 9
+Execution Stack:
+ ref(int) a;
+     new(a, 20);
+     for(v=0; v<3; v=v + 1) fork(print(v);
+     v = v * rH(a));
+     print(rH(a))
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ new(a, 20);
+     for(v=0; v<3; v=v + 1) fork(print(v);
+     v = v * rH(a));
+     print(rH(a))
+ ref(int) a
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ new(a, 20);
+     for(v=0; v<3; v=v + 1) fork(print(v);
+     v = v * rH(a));
+     print(rH(a))
+ ref(int) a
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ new(a, 20);
+     for(v=0; v<3; v=v + 1) fork(print(v);
+     v = v * rH(a));
+     print(rH(a))
+Symbol Table:
+   a --> (0, int)
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ new(a, 20);
+     for(v=0; v<3; v=v + 1) fork(print(v);
+     v = v * rH(a));
+     print(rH(a))
+Symbol Table:
+   a --> (0, int)
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ for(v=0; v<3; v=v + 1) fork(print(v);
+     v = v * rH(a));
+     print(rH(a))
+ new(a, 20)
+Symbol Table:
+   a --> (0, int)
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ for(v=0; v<3; v=v + 1) fork(print(v);
+     v = v * rH(a));
+     print(rH(a))
+ new(a, 20)
+Symbol Table:
+   a --> (0, int)
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ for(v=0; v<3; v=v + 1) fork(print(v);
+     v = v * rH(a));
+     print(rH(a))
+Symbol Table:
+   a --> (1, int)
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ for(v=0; v<3; v=v + 1) fork(print(v);
+     v = v * rH(a));
+     print(rH(a))
+Symbol Table:
+   a --> (1, int)
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ for(v=0; v<3; v=v + 1) fork(print(v);
+     v = v * rH(a))
+Symbol Table:
+   a --> (1, int)
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ for(v=0; v<3; v=v + 1) fork(print(v);
+     v = v * rH(a))
+Symbol Table:
+   a --> (1, int)
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ int v;
+     v = 0;
+     while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ int v;
+     v = 0;
+     while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ v = 0;
+     while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ int v
+Symbol Table:
+   a --> (1, int)
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ v = 0;
+     while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ int v
+Symbol Table:
+   a --> (1, int)
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ v = 0;
+     while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ v = 0;
+     while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ v = 0
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ v = 0
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ v = v + 1
+ fork(print(v);
+     v = v * rH(a))
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ v = v + 1
+ fork(print(v);
+     v = v * rH(a))
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 10
+Execution Stack:
+ print(v);
+     v = v * rH(a)
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 10
+Execution Stack:
+ print(v);
+     v = v * rH(a)
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 1
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 10
+Execution Stack:
+ v = v * rH(a)
+ print(v)
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 1
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 10
+Execution Stack:
+ v = v * rH(a)
+ print(v)
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 1
+Heap:
+   1 --> 20
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 10
+Execution Stack:
+ v = v * rH(a)
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 1
+Heap:
+   1 --> 20
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 10
+Execution Stack:
+ v = v * rH(a)
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ v = v + 1
+ fork(print(v);
+     v = v * rH(a))
+Symbol Table:
+   a --> (1, int)
+   v --> 1
+Heap:
+   1 --> 20
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 10
+Execution Stack:
+Symbol Table:
+   a --> (1, int)
+   v --> 0
+Heap:
+   1 --> 20
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ v = v + 1
+ fork(print(v);
+     v = v * rH(a))
+Symbol Table:
+   a --> (1, int)
+   v --> 1
+Heap:
+   1 --> 20
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 1
+Heap:
+   1 --> 20
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(v);
+     v = v * rH(a)
+Symbol Table:
+   a --> (1, int)
+   v --> 1
+Heap:
+   1 --> 20
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 1
+Heap:
+   1 --> 20
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(v);
+     v = v * rH(a)
+Symbol Table:
+   a --> (1, int)
+   v --> 1
+Heap:
+   1 --> 20
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 2
+Heap:
+   1 --> 20
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ v = v * rH(a)
+ print(v)
+Symbol Table:
+   a --> (1, int)
+   v --> 1
+Heap:
+   1 --> 20
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 2
+Heap:
+   1 --> 20
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ v = v * rH(a)
+ print(v)
+Symbol Table:
+   a --> (1, int)
+   v --> 1
+Heap:
+   1 --> 20
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 2
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ v = v * rH(a)
+Symbol Table:
+   a --> (1, int)
+   v --> 1
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 2
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ v = v * rH(a)
+Symbol Table:
+   a --> (1, int)
+   v --> 1
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ v = v + 1
+ fork(print(v);
+     v = v * rH(a))
+Symbol Table:
+   a --> (1, int)
+   v --> 2
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+Symbol Table:
+   a --> (1, int)
+   v --> 20
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ v = v + 1
+ fork(print(v);
+     v = v * rH(a))
+Symbol Table:
+   a --> (1, int)
+   v --> 2
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 2
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v);
+     v = v * rH(a)
+Symbol Table:
+   a --> (1, int)
+   v --> 2
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+ v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 2
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v);
+     v = v * rH(a)
+Symbol Table:
+   a --> (1, int)
+   v --> 2
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 3
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = v * rH(a)
+ print(v)
+Symbol Table:
+   a --> (1, int)
+   v --> 2
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+ while ((v, 3)) fork(print(v);
+     v = v * rH(a));
+     v = v + 1
+Symbol Table:
+   a --> (1, int)
+   v --> 3
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = v * rH(a)
+ print(v)
+Symbol Table:
+   a --> (1, int)
+   v --> 2
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+Symbol Table:
+   a --> (1, int)
+   v --> 3
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = v * rH(a)
+Symbol Table:
+   a --> (1, int)
+   v --> 2
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+ print(rH(a))
+Symbol Table:
+   a --> (1, int)
+   v --> 3
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = v * rH(a)
+Symbol Table:
+   a --> (1, int)
+   v --> 2
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 9
+Execution Stack:
+Symbol Table:
+   a --> (1, int)
+   v --> 3
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+   2
+   20
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+Symbol Table:
+   a --> (1, int)
+   v --> 40
+Heap:
+   1 --> 20
+Out:
+   0
+   1
+   2
+   20
+FileTable:
+   (none)
+
+--------------------------------------------------

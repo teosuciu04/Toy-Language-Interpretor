@@ -1,0 +1,1286 @@
+Id = 11
+Execution Stack:
+ int v;
+     v = 2;
+     fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(2 * v)
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ v = 2;
+     fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(2 * v)
+ int v
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ v = 2;
+     fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(2 * v)
+ int v
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ v = 2;
+     fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(2 * v)
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ v = 2;
+     fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(2 * v)
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(2 * v)
+ v = 2
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(2 * v)
+ v = 2
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(2 * v)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(2 * v)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ sleep(10);
+     print(2 * v)
+ fork(v = v - 1;
+     v = v - 1;
+     print(v))
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ sleep(10);
+     print(2 * v)
+ fork(v = v - 1;
+     v = v - 1;
+     print(v))
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ sleep(10);
+     print(2 * v)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = v - 1;
+     v = v - 1;
+     print(v)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ sleep(10);
+     print(2 * v)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = v - 1;
+     v = v - 1;
+     print(v)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(10)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = v - 1;
+     print(v)
+ v = v - 1
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(10)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = v - 1;
+     print(v)
+ v = v - 1
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(9)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = v - 1;
+     print(v)
+Symbol Table:
+   v --> 1
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(9)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = v - 1;
+     print(v)
+Symbol Table:
+   v --> 1
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(8)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v)
+ v = v - 1
+Symbol Table:
+   v --> 1
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(8)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v)
+ v = v - 1
+Symbol Table:
+   v --> 1
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(7)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v)
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(7)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v)
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(6)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(6)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(5)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(5)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(4)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(4)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(3)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(3)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(2)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(2)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(1)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(1)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(0)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+ sleep(0)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(2 * v)
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+Symbol Table:
+   v --> 2
+Heap:
+Out:
+   0
+   4
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ int v;
+     v = 10;
+     fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(10 * v)
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ v = 10;
+     fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(10 * v)
+ int v
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ v = 10;
+     fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(10 * v)
+ int v
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ v = 10;
+     fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(10 * v)
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ v = 10;
+     fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(10 * v)
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(10 * v)
+ v = 10
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(10 * v)
+ v = 10
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(10 * v)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ fork(v = v - 1;
+     v = v - 1;
+     print(v));
+     sleep(10);
+     print(10 * v)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ sleep(10);
+     print(10 * v)
+ fork(v = v - 1;
+     v = v - 1;
+     print(v))
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ sleep(10);
+     print(10 * v)
+ fork(v = v - 1;
+     v = v - 1;
+     print(v))
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ sleep(10);
+     print(10 * v)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = v - 1;
+     v = v - 1;
+     print(v)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ sleep(10);
+     print(10 * v)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = v - 1;
+     v = v - 1;
+     print(v)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(10)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = v - 1;
+     print(v)
+ v = v - 1
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(10)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = v - 1;
+     print(v)
+ v = v - 1
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(9)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = v - 1;
+     print(v)
+Symbol Table:
+   v --> 9
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(9)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ v = v - 1;
+     print(v)
+Symbol Table:
+   v --> 9
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(8)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v)
+ v = v - 1
+Symbol Table:
+   v --> 9
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(8)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v)
+ v = v - 1
+Symbol Table:
+   v --> 9
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(7)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v)
+Symbol Table:
+   v --> 8
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(7)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+ print(v)
+Symbol Table:
+   v --> 8
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(6)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 12
+Execution Stack:
+Symbol Table:
+   v --> 8
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(6)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(5)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(5)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(4)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(4)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(3)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(3)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(2)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(2)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(1)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(1)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(0)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+ sleep(0)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+ print(10 * v)
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 11
+Execution Stack:
+Symbol Table:
+   v --> 10
+Heap:
+Out:
+   8
+   100
+FileTable:
+   (none)
+
+--------------------------------------------------

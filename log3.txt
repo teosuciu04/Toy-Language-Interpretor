@@ -1,0 +1,268 @@
+Id = 3
+Execution Stack:
+ bool a;
+     int v;
+     a = true;
+     if (a) then (v = 2) else (v = 3);
+     print(v)
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ int v;
+     a = true;
+     if (a) then (v = 2) else (v = 3);
+     print(v)
+ bool a
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ int v;
+     a = true;
+     if (a) then (v = 2) else (v = 3);
+     print(v)
+ bool a
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ int v;
+     a = true;
+     if (a) then (v = 2) else (v = 3);
+     print(v)
+Symbol Table:
+   a --> false
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ int v;
+     a = true;
+     if (a) then (v = 2) else (v = 3);
+     print(v)
+Symbol Table:
+   a --> false
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ a = true;
+     if (a) then (v = 2) else (v = 3);
+     print(v)
+ int v
+Symbol Table:
+   a --> false
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ a = true;
+     if (a) then (v = 2) else (v = 3);
+     print(v)
+ int v
+Symbol Table:
+   a --> false
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ a = true;
+     if (a) then (v = 2) else (v = 3);
+     print(v)
+Symbol Table:
+   a --> false
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ a = true;
+     if (a) then (v = 2) else (v = 3);
+     print(v)
+Symbol Table:
+   a --> false
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ if (a) then (v = 2) else (v = 3);
+     print(v)
+ a = true
+Symbol Table:
+   a --> false
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ if (a) then (v = 2) else (v = 3);
+     print(v)
+ a = true
+Symbol Table:
+   a --> false
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ if (a) then (v = 2) else (v = 3);
+     print(v)
+Symbol Table:
+   a --> true
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ if (a) then (v = 2) else (v = 3);
+     print(v)
+Symbol Table:
+   a --> true
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ print(v)
+ if (a) then (v = 2) else (v = 3)
+Symbol Table:
+   a --> true
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ print(v)
+ if (a) then (v = 2) else (v = 3)
+Symbol Table:
+   a --> true
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ print(v)
+ v = 2
+Symbol Table:
+   a --> true
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ print(v)
+ v = 2
+Symbol Table:
+   a --> true
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ print(v)
+Symbol Table:
+   a --> true
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+ print(v)
+Symbol Table:
+   a --> true
+   v --> 2
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 3
+Execution Stack:
+Symbol Table:
+   a --> true
+   v --> 2
+Heap:
+Out:
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------

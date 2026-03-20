@@ -1,0 +1,1643 @@
+Id = 14
+Execution Stack:
+ int v;
+     int x;
+     int y;
+     v = 0;
+     repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ int x;
+     int y;
+     v = 0;
+     repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ int v
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ int x;
+     int y;
+     v = 0;
+     repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ int v
+Symbol Table:
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ int x;
+     int y;
+     v = 0;
+     repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ int x;
+     int y;
+     v = 0;
+     repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ int y;
+     v = 0;
+     repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ int x
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ int y;
+     v = 0;
+     repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ int x
+Symbol Table:
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ int y;
+     v = 0;
+     repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+   v --> 0
+   x --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ int y;
+     v = 0;
+     repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+   v --> 0
+   x --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ v = 0;
+     repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ int y
+Symbol Table:
+   v --> 0
+   x --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ v = 0;
+     repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ int y
+Symbol Table:
+   v --> 0
+   x --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ v = 0;
+     repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+   v --> 0
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ v = 0;
+     repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+   v --> 0
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ v = 0
+Symbol Table:
+   v --> 0
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ v = 0
+Symbol Table:
+   v --> 0
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+   v --> 0
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3);
+     x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+   v --> 0
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3)
+Symbol Table:
+   v --> 0
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ repeat fork(print(v);
+     v = v - 1);
+     v = v + 1 until (v, 3)
+Symbol Table:
+   v --> 0
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ fork(print(v);
+     v = v - 1);
+     v = v + 1;
+     while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+Symbol Table:
+   v --> 0
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ fork(print(v);
+     v = v - 1);
+     v = v + 1;
+     while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+Symbol Table:
+   v --> 0
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ fork(print(v);
+     v = v - 1);
+     v = v + 1
+Symbol Table:
+   v --> 0
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ fork(print(v);
+     v = v - 1);
+     v = v + 1
+Symbol Table:
+   v --> 0
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ v = v + 1
+ fork(print(v);
+     v = v - 1)
+Symbol Table:
+   v --> 0
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ v = v + 1
+ fork(print(v);
+     v = v - 1)
+Symbol Table:
+   v --> 0
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ v = v + 1
+Symbol Table:
+   v --> 0
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 15
+Execution Stack:
+ print(v);
+     v = v - 1
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ v = v + 1
+Symbol Table:
+   v --> 0
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 15
+Execution Stack:
+ print(v);
+     v = v - 1
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+Symbol Table:
+   v --> 1
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 15
+Execution Stack:
+ v = v - 1
+ print(v)
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+Symbol Table:
+   v --> 1
+   x --> 0
+   y --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 15
+Execution Stack:
+ v = v - 1
+ print(v)
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 0
+Heap:
+Out:
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ fork(print(v);
+     v = v - 1);
+     v = v + 1
+Symbol Table:
+   v --> 1
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 15
+Execution Stack:
+ v = v - 1
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 0
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ fork(print(v);
+     v = v - 1);
+     v = v + 1
+Symbol Table:
+   v --> 1
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 15
+Execution Stack:
+ v = v - 1
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 0
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ v = v + 1
+ fork(print(v);
+     v = v - 1)
+Symbol Table:
+   v --> 1
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 15
+Execution Stack:
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> -1
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ v = v + 1
+ fork(print(v);
+     v = v - 1)
+Symbol Table:
+   v --> 1
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ v = v + 1
+Symbol Table:
+   v --> 1
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 16
+Execution Stack:
+ print(v);
+     v = v - 1
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 1
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ v = v + 1
+Symbol Table:
+   v --> 1
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 16
+Execution Stack:
+ print(v);
+     v = v - 1
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 1
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+Symbol Table:
+   v --> 2
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 16
+Execution Stack:
+ v = v - 1
+ print(v)
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 1
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+Symbol Table:
+   v --> 2
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 16
+Execution Stack:
+ v = v - 1
+ print(v)
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 1
+Heap:
+Out:
+   0
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ fork(print(v);
+     v = v - 1);
+     v = v + 1
+Symbol Table:
+   v --> 2
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 16
+Execution Stack:
+ v = v - 1
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 1
+Heap:
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ fork(print(v);
+     v = v - 1);
+     v = v + 1
+Symbol Table:
+   v --> 2
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 16
+Execution Stack:
+ v = v - 1
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 1
+Heap:
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ v = v + 1
+ fork(print(v);
+     v = v - 1)
+Symbol Table:
+   v --> 2
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 16
+Execution Stack:
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 0
+Heap:
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ v = v + 1
+ fork(print(v);
+     v = v - 1)
+Symbol Table:
+   v --> 2
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ v = v + 1
+Symbol Table:
+   v --> 2
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 17
+Execution Stack:
+ print(v);
+     v = v - 1
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 2
+Heap:
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+ v = v + 1
+Symbol Table:
+   v --> 2
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 17
+Execution Stack:
+ print(v);
+     v = v - 1
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 2
+Heap:
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+Symbol Table:
+   v --> 3
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 17
+Execution Stack:
+ v = v - 1
+ print(v)
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 2
+Heap:
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ while (!(v, 3)) fork(print(v);
+     v = v - 1);
+     v = v + 1
+Symbol Table:
+   v --> 3
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 17
+Execution Stack:
+ v = v - 1
+ print(v)
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 2
+Heap:
+Out:
+   0
+   1
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+   v --> 3
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 17
+Execution Stack:
+ v = v - 1
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 2
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ x = 1;
+     model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+   v --> 3
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 17
+Execution Stack:
+ v = v - 1
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 2
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ x = 1
+Symbol Table:
+   v --> 3
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 17
+Execution Stack:
+Symbol Table:
+   x --> 0
+   y --> 0
+   v --> 1
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ x = 1
+Symbol Table:
+   v --> 3
+   x --> 0
+   y --> 0
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+   v --> 3
+   x --> 1
+   y --> 0
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ model.statement.NoOperationStatement@7281467e;
+     y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+   v --> 3
+   x --> 1
+   y --> 0
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ model.statement.NoOperationStatement@7281467e
+Symbol Table:
+   v --> 3
+   x --> 1
+   y --> 0
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ model.statement.NoOperationStatement@7281467e
+Symbol Table:
+   v --> 3
+   x --> 1
+   y --> 0
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+   v --> 3
+   x --> 1
+   y --> 0
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ y = 3;
+     model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+   v --> 3
+   x --> 1
+   y --> 0
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ y = 3
+Symbol Table:
+   v --> 3
+   x --> 1
+   y --> 0
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+ y = 3
+Symbol Table:
+   v --> 3
+   x --> 1
+   y --> 0
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+   v --> 3
+   x --> 1
+   y --> 3
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ model.statement.NoOperationStatement@1b2a8f7f;
+     print(v * 10)
+Symbol Table:
+   v --> 3
+   x --> 1
+   y --> 3
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ print(v * 10)
+ model.statement.NoOperationStatement@1b2a8f7f
+Symbol Table:
+   v --> 3
+   x --> 1
+   y --> 3
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ print(v * 10)
+ model.statement.NoOperationStatement@1b2a8f7f
+Symbol Table:
+   v --> 3
+   x --> 1
+   y --> 3
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ print(v * 10)
+Symbol Table:
+   v --> 3
+   x --> 1
+   y --> 3
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+ print(v * 10)
+Symbol Table:
+   v --> 3
+   x --> 1
+   y --> 3
+Heap:
+Out:
+   0
+   1
+   2
+FileTable:
+   (none)
+
+--------------------------------------------------
+Id = 14
+Execution Stack:
+Symbol Table:
+   v --> 3
+   x --> 1
+   y --> 3
+Heap:
+Out:
+   0
+   1
+   2
+   30
+FileTable:
+   (none)
+
+--------------------------------------------------
